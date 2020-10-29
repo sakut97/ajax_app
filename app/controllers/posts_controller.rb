@@ -20,6 +20,7 @@ class PostsController < ApplicationController
 
     item = Post.find(params[:id])
     render json: { post: item }
+  #レスポンスに返す形式を指定　jeson形式で返すよ〜 { どこモデルの：って値だよ〜}
   end
-  
+
 end
